@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: "Press Start 2P", cursive;
+}
+
+input {
+  height: 50px;
+  width: 400px;
+  border-radius: 25px;
+  margin: 10px;
+  border-color: blue;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  outline: inherit;
+}
