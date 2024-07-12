@@ -34,6 +34,7 @@ export default function ItemCard({
         <img src={img} alt={name} width={150} height={150} />
         <p>{description}</p>
       </div>
+      
       <div style={{ display: "flex", justifyContent: "space-between" }}>
         <p>$ {price}.00</p>
         <button
